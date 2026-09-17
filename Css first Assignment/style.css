@@ -1,0 +1,70 @@
+/* Element Selector */
+body {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ID Selector */
+#header {
+    background-color: #282d9c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Element Selector */
+h1 {
+    font-size: 36px;
+}
+
+/* Grouping Selector */
+h1, h2, p {
+    margin-bottom: 15px;
+}
+
+/* Class Selector */
+.tagline {
+    font-size: 20px;
+}
+
+/* Class Selector */
+.section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+}
+
+/* Element Selector */
+h2 {
+    color: #282d9c;
+    font-size: 26px;
+}
+
+/* Class Selector */
+.skills {
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #eeeeff;
+    padding: 15px;
+}
+
+/* ID Selector */
+#contact {
+    background-color: #282d9c;
+    color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+}
+
+/* Element Selector */
+p {
+    font-size: 17px;
+}
