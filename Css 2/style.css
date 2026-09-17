@@ -1,0 +1,72 @@
+/* Element Selector */
+body {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ID Selector */
+#header {
+    background-color: #282d9c;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+/* Element Selector */
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Element Selector */
+h2 {
+    color: #282d9c;
+    text-decoration: underline;
+    font-size: 26px;
+}
+
+/* Class Selector */
+.subtitle {
+    font-size: 19px;
+    font-style: italic;
+    word-spacing: 5px;
+    margin-left: 300px;
+}
+
+/* Class Selector */
+.content {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Element Selector */
+p {
+    text-align: justify;
+    line-height: 1.8;
+    text-indent: 30px;
+}
+
+/* ID Selector */
+#quote {
+    background-color: #282d9c;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Class Selector */
+.quote {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
