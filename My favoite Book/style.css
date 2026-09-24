@@ -1,0 +1,89 @@
+
+body {
+    background-color: #e8edf5;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #999;
+}
+
+h1 {
+    text-align: center;
+    color: #0f2c59;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.book-cover {
+    display: block;
+    width: 400px;
+    height: 375px;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #0f2c59;
+    border-bottom: 2px solid #0f2c59;
+    padding-bottom: 8px;
+}
+
+.details {
+    background-color: #f1f5fa;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+.label {
+    color: #0f2c59;
+    font-weight: bold;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.quote {
+    background-color: #0f2c59;
+    color: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
