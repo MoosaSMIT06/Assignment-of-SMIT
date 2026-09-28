@@ -1,0 +1,235 @@
+.header{
+    background-color: #163D6D;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+/* .img{
+    width: 50px;
+    height: 50px;
+    
+
+} */
+
+
+.h1{
+    color: white;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home{
+    margin-left: 400px;
+    font-size: 13px;
+}
+#main{
+    font-size: 35px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+
+}
+#Courses{
+    font-size: 13px;
+    padding-left: 60px;
+}
+#Students{
+    font-size: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#Registration{
+    font-size: 13px;
+    /* padding-top: 10px; */
+    /* background-color: #E6F3FE; */
+    width: 500px;
+    padding: 10px;
+}
+#Contact{
+    font-size: 13px;
+    padding-left: 60px;
+}
+.div2{
+    background-color: #5CB6FF;
+    border-radius: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+.div3{
+    /* display:inline; */
+    background-color: #E6F3FE;
+    width: 1260px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-self: ; */
+    /* justify-content: space-around; */
+    padding-left: 100px;
+    
+}
+.p1{
+    margin-left: 30px;
+
+}
+#join{
+    color:#1484e0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 9px;
+    
+}
+#study{
+    font-size: 50px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fill{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 9px;
+}
+#img1{
+    width: 200px;
+    height: 200px;
+    /* margin-left: 800px; */
+    /* background-color: black; */
+    /* display:inline; */
+    
+}
+.divm{
+    margin-left: 800px;
+    display:flex;
+    justify-content: end;
+
+}
+.div4{
+    border: 2px solid #a6d3fa;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+}
+.able{
+    background-color:#E6F3FE ;
+    color: #163D6D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 510px;
+    height: 40px;
+    padding-left: 30px;
+    border-radius: 10px;
+    
+}
+
+.div5{
+    display: flex;
+    justify-content: space-around;
+    justify-content: baseline;
+    /* align-self: flex-end; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: #163D6D;
+}
+
+.able2{
+    background-color:#DDF5E3 ;
+    color: #163D6D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 510px;
+    height: 80px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.div6{
+    border: 2px solid #DDF5E3;
+     border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+
+/* .able3{
+    background-color:#E6F3FE ;
+    color: #163D6D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    width: 300px;
+    height: 40px;
+    padding-left: 30px;
+    border-radius: 10px;
+    
+} */
+ .tr1{
+    /* border: 2px solid black; */
+    margin-left: 30px;
+ }
+ .th1{
+    padding: 5px 8px 4px 5px;
+    border: 1px solid #67a4da;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6F3FE;
+    border-radius: 2px;
+ }
+
+ .tr3{
+    font-family: Arial, Helvetica, sans-serif;
+     border: 1px solid #67a4da;
+ }
+
+ .td1{
+     padding: 5px 8px 4px 5px;
+    border: 1px solid #67a4da;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #E6F3FE; */
+
+ }
+ .active{
+    background-color: rgb(54, 237, 54);
+    color: rgb(55, 131, 57);
+    border-radius: 2px;
+    padding-left: 2px;
+ }
+ .inactive{
+     background-color: rgb(249, 164, 164);
+    color: rgb(242, 0, 0);
+    border-radius: 2px;
+    padding-left: 2px;
+
+ }
+ .Main{
+    display: flex;
+    justify-content: space-around;
+ }
+ .reg{
+     background-color:#E6F3FE ;
+    color: #163D6D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 510px;
+    height: 40px;
+    padding-left: 30px;
+    border-radius: 10px;
+
+ }
+ .divform{
+    border: 2px solid #a6d3fa ;
+    height: 550px;
+    border-radius: 10px;
+ }
+ .divform1{
+    margin-left: 30px;
+    margin-top: 30px;
+    /* font-size: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+   
+ }
+ .input{
+    border-radius: 2px;
+
+ }
+ 
+    
+
+ 
+
+
+
+
