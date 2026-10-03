@@ -1,0 +1,304 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f5fa;
+    color: #172342;
+}
+
+.container {
+    width: 96%;
+    max-width: 1200px;
+    margin: 15px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Navbar using Flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    color: #6242f5;
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #25304d;
+    font-size: 13px;
+}
+
+.navbar input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #e1e5ef;
+    border-radius: 20px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin: 20px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: linear-gradient(120deg, #f0efff, #e9edff);
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text small {
+    color: #6242f5;
+    font-weight: bold;
+}
+
+.hero-text h1 {
+    font-size: 34px;
+    margin: 12px 0;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    color: #59647e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #6945f5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 300px;
+    height: 210px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px 10px;
+    background: #f8f9fd;
+    border-radius: 10px;
+}
+
+.feature {
+    flex: 1 1 150px;
+    text-align: center;
+}
+
+.feature span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: #e4e1ff;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.feature h3 {
+    font-size: 15px;
+    margin: 10px 0 5px;
+}
+
+.feature p {
+    font-size: 12px;
+    color: #65708a;
+}
+
+/* Products Heading */
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 5px 20px;
+}
+
+.section-heading h2 {
+    font-size: 22px;
+}
+
+.section-heading a {
+    color: #6242f5;
+}
+
+/* Product Cards using Flexbox */
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    flex: 1 1 180px;
+    min-width: 0;
+    border: 1px solid #e0e5f0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    background: #f0f2f8;
+    padding: 10px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    padding: 12px;
+    gap: 8px;
+}
+
+.product-info h3 {
+    font-size: 14px;
+}
+
+.product-info p {
+    font-size: 13px;
+}
+
+.product-info span {
+    color: #ff922b;
+    font-size: 12px;
+}
+
+.product-info button {
+    width: 100%;
+    margin-top: auto;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 25px;
+    background: #182437;
+    color: white;
+    border-radius: 8px;
+}
+
+.footer-brand,
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-brand p,
+.footer-links a,
+.footer-links p {
+    color: #d0d6e3;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.footer-links h4 {
+    font-size: 13px;
+}
+
+.footer-brand h3 {
+    color: white;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #344054;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #d0d6e3;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 27px;
+    }
+
+    .products {
+        justify-content: center;
+    }
+
+    .product-card {
+        flex: 1 1 200px;
+    }
+
+    .footer {
+        justify-content: flex-start;
+    }
+}
