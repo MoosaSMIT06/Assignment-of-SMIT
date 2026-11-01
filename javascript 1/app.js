@@ -46,6 +46,31 @@ document.write("<h3>Percentage</h3>");
 document.write("Percentage: " + persentage +"%");
 
 
+console.log("Student Name: " + studentName);
+console.log("Student Roll Number: " + rollNO );
+console.log("Class: " + Class)
+console.log("English: " + english + "/100")
+console.log("Mathematics: " + mathematics + "/100" );
+console.log("Physics: " + physic + "/100");
+console.log("Chemistry: " + chemistry + "/100");
+console.log("Computer: " + computer + "/100");
+console.log("Urdu: " + urdu + "/100");
+console.log("Islamiyat: " + islamiat + "/100");
+console.log("Total Number: " + obtainedMarks + "/" + totalMarks);
+console.log("Percentage: " + persentage +"%");
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
